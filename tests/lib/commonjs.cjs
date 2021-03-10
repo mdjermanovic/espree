@@ -11,11 +11,7 @@
 //------------------------------------------------------------------------------
 
 const assert = require("assert");
-const tap = require("tap");
 const espree = require("../../dist/espree.cjs");
-
-
-tap.mochaGlobals();
 
 //------------------------------------------------------------------------------
 // Tests

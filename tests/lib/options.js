@@ -8,11 +8,7 @@
 //------------------------------------------------------------------------------
 
 import assert from "assert";
-import tap from "tap";
 import { normalizeOptions } from "../../lib/options.js";
-
-
-tap.mochaGlobals();
 
 //------------------------------------------------------------------------------
 // Tests

@@ -11,7 +11,6 @@
 import tester from "./tester.js";
 import * as espree from "../../espree.js";
 import assert from "assert";
-import tap from "tap";
 import letResult from "../fixtures/tokenize/let-result.tokens.js";
 import constResultTokens from "../fixtures/tokenize/const-result.tokens.js";
 import regexpUResultTokens from "../fixtures/tokenize/regexp-u-result.tokens.js";
@@ -23,9 +22,6 @@ import templateStringExpressionsResultTokens from "../fixtures/tokenize/template
 import regexInParensResultTokens from "../fixtures/tokenize/regex-in-parens-result.tokens.js";
 import notOperatorTokens from "../fixtures/tokenize/not-operator.tokens.js";
 import tildeOperatorTokens from "../fixtures/tokenize/tilde-operator.tokens.js";
-
-
-tap.mochaGlobals();
 
 //------------------------------------------------------------------------------
 // Tests

@@ -9,10 +9,6 @@
 
 import * as acorn from "acorn";
 import assert from "assert";
-import tap from "tap";
-
-
-tap.mochaGlobals();
 
 //------------------------------------------------------------------------------
 // Tests
